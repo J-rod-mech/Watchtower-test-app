@@ -1,8 +1,7 @@
 # Hosted ShopDemo
 This is the standalone, hostable variant of ShopDemo. It can be deployed as a static site for checking visits and traffic.
 
-Link [here](https://courseproject-8qkfva2k4-akatsuki9.vercel.app/)
-
+Link [here](https://cse110-sp26-group09.github.io/Watchtower-test-app/)
 ## Deploy
 
 Deploy this folder (`src/prototype_1/hosted_demo/`) to any static host, such as GitHub Pages, Netlify, or Vercel. There is no build step.
