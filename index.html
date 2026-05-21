@@ -33,7 +33,14 @@
   <footer>
     <p>This is a static hosted demo for checking site visits and traffic.</p>
   </footer>
-
+  <script>
+    window.WATCHTOWER_CONFIG = {
+      endpoint: "http://localhost:8000/api/events",
+      appName: "shopdemo-hosted",
+      deployVersion: document.getElementById("version-select")?.value || "v1.2.0-beta"
+    };
+  </script>
+  <script src="./sdk/watchtower.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
