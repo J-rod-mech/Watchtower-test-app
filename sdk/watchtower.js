@@ -10,7 +10,7 @@
 (function (global) {
   "use strict";
 
-  var DEFAULT_ENDPOINT = "https://watchtower-server-t7g7.onrender.com//api/events";
+  var DEFAULT_ENDPOINT = "https://watchtower-server-t7g7.onrender.com/api/events";
   var FLUSH_INTERVAL = 2000;
   var SESSION_KEY = "__wt_sid";
   var DEFAULT_CLICK_SELECTOR = ".btn, .card, .nav-links a, [data-wt-click]";
