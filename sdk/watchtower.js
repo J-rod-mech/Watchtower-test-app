@@ -1,7 +1,16 @@
+/**
+ * WatchTower browser SDK.
+ *
+ * Capture errors, performance metrics, and user interactions from a
+ * client page and forward them to the WatchTower server in small
+ * batches. Designed to run in any modern browser without a build step.
+ *
+ * @module ./sdk/watchtower
+ */
 (function (global) {
   "use strict";
 
-  var DEFAULT_ENDPOINT = "http://localhost:8000/api/events";
+  var DEFAULT_ENDPOINT = "https://watchtower-server-t7g7.onrender.com//api/events";
   var FLUSH_INTERVAL = 2000;
   var SESSION_KEY = "__wt_sid";
   var DEFAULT_CLICK_SELECTOR = ".btn, .card, .nav-links a, [data-wt-click]";
